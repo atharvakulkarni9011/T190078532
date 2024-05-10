@@ -1,0 +1,38 @@
+PS D:\T190078532> git init
+Initialized empty Git repository in D:/T190078532/.git/
+PS D:\T190078532> git commit -m "first commit"
+Author identity unknown
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PVG@DESKTOP-DF0LKRR.(none)')
+PS D:\T190078532>  git config --global user.email "atharvakulkarni9011@gmail.com"      
+PS D:\T190078532> git config --global user.name "atharvakulkarni9011"
+PS D:\T190078532> git commit -m "first commit"
+ 7 files changed, 108 insertions(+)
+ create mode 100644 pvg.jpg
+ create mode 100644 pvg2.jpg
+ create mode 100644 pvg3.jpg
+ create mode 100644 pvg4.jpg
+ create mode 100644 second.html
+ create mode 100644 third.html
+PS D:\T190078532> git branch -M main
+PS D:\T190078532> git remote add origin https://github.com/atharvakulkarni9011/T190078532.git
+PS D:\T190078532> git push -u origin main
+>>
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 317.31 KiB | 21.15 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/atharvakulkarni9011/T190078532.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS D:\T190078532> 
